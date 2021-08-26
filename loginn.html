@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>welcome at zawadi's company</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login form</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.min.css">
+
+    <script src="../../ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="../../cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="../../maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="main.css">
+
+</head>
+<body class="bg-info text-white">
+    
+        
+        
+        
+       
+        
+    <div class="ddd">
+        <div  class="container">
+                <div style="box-shadow: 5px 10px 10px rgb(10, 40, 50);
+                                        1px 5px 10px rgb(200, 200, 200);
+                                        10px 10px 5px rgb(200, 200, 200); margin: 5px 50px 50px 6px; width: 50%; height: 20%;">
+            <p><button onclick="mymove()">welcome at loginpage</button></p>
+            <div id="animate">
+                
+            </div>
+            <script>function mymove(){
+                var elem=document.getElementById("animate");
+                var pos=0;
+                var id= setInterval(frame,20);
+                function frame(){
+                    if (pos== 500){
+                        clearInterval(id);
+                    }else {
+                        pos++;
+                         elem.style.top = pos +"px";
+                         elem.style.left = pos +"px";
+                         elem.style.right = pos +"px";
+                         elem.style.bottom = pos +"px";
+                    }
+                }
+            }
+            </script>
+        
+    
+            <img  src="pc.JFIF" class="img-thumbnail"  alt="cinque Terre">
+            
+                <div class="container">
+                        <i class="material-icons" style="font-size:60px;color:lightblue;text-shadow:2px 2px 4px #000000;"><h2>
+                        login page</h2></i>
+            
+                        <input class="form-control" type="name" name="username" placeholder=" enter username" required=""><br>
+                
+                        <input class="form-control " type="password" name="password" placeholder="enter password" required=""><br>
+                </div>
+                     <div class="form-group">
+                         <label for="sell" required="">choose 'yes' to submit </label>
+                         <select class="form-control" id="sell">
+                             <option></option>
+                             <option>No</option>
+                             <option>yes</option>
+                         </select>
+                     </div>
+                    <div class="checkbox">
+                    <label><input type="checkbox">Remember me</label>
+
+                    </div>
+                        <div class="container">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-success" >submit</button><br>
+                            <button type="button" class="btn btn-dark">not submit</button><br>
+                            
+                        </div>
+                        </div>
+                 <section class="slideshow">
+                    <div class="content">
+                        <div class="content-pc">
+                            <figure class="shadow"><img src="imgs/pc1.JFIF" alt=""></figure>
+                            <figure class="shadow"><img src="imgs/pc2.JFIF" alt=""></figure>
+                            <figure class="shadow"><img src="imgs/pc3.JFIF" alt=""></figure>
+                            <figure class="shadow"><img src="imgs/pc4.JFIF" alt=""></figure>
+                            <figure class="shadow"><img src="imgs/PC5.JFIF" alt=""></figure>
+                            <figure class="shadow"><img src="imgs/pc6.JFIF" alt=""></figure>
+                            <figure class="shadow"><img src="imgs/PC7.JFIF" alt=""></figure>
+                            <figure class="shadow"><img src="imgs/PC8.JFIF" alt=""></figure>
+                            <figure class="shadow"><img src="imgs/PC8.JFIF" alt=""></figure>
+                        </div>
+                    </div>
+                </section >   
+
+            </div>
+        
+        </div>
+    </div>
+
+
+
+     
+    
+ 
+</body>
+</html>
